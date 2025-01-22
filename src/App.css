@@ -1,0 +1,39 @@
+/* Full height container for the app */
+.app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; /* Prevent any background overflow */
+}
+
+/* Particle background stays fixed */
+.particle-background {
+  position: fixed;  /* Fix the background animation */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it stays behind the content */
+}
+
+/* Content container should scroll */
+.content-container {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  overflow-y: auto; /* Allow scrolling */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for visibility */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: transparent; /* No background color to cover the animation */
+}
+
+/* Optional: Add some styling for the header or content inside the menu */
+h1, .menu-container {
+  position: relative;
+  z-index: 20; /* Ensure the text is above the background */
+}

@@ -1,0 +1,33 @@
+#menu {
+    position: fixed; 
+    flex-direction: row;
+    text-align: center;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100vh; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    overflow-y: auto; 
+    padding: 20px;
+    z-index: 10; 
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 15px 0;
+}
+
+button {
+    background-color: #ff5733; /* Example button style */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
