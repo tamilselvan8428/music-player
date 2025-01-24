@@ -1,0 +1,16 @@
+#movie {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:transparent;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+    width: 100%;
+    color: #fff; /* White text for readability */
+    backdrop-filter: blur(10px); 
+  }
+  img{
+    margin-left: 14%;
+  }
